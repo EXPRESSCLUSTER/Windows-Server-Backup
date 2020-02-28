@@ -1,6 +1,4 @@
-=======================
-==Testing Environment==
-=======================
+# Testing Environment
 Host Machines (x2): Windows Server 2019 Datacenter edition VM
 - Attached 5GB VHDX drive (to be used as destination for backup) and mounted it (e.g. drive F:)
 - Created folder called 'backup' on C: drive (to store test files to back up)
