@@ -21,5 +21,5 @@ Primary server & Secondary server: Windows Server 2019 Datacenter edition VM
 
 # EXPRESSCLUSTER 4.1 installation and configuration
 1. Install EXPRESSCLUSTER 4.1 on both servers, adding a basic license and mirroring license
-2. Create a cluster between the primary one and secondary server
+2. Create a cluster between the primary and secondary servers
 3. Create a failover group with a mirror disk, mirroring the 5GB drives on each server (e.g. drive F:)
