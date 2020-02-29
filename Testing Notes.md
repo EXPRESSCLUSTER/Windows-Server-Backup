@@ -5,7 +5,7 @@
 3. Choose 'Backup Once...' in the right Actions pane
 4. Complete the process to execute the backup
 
-Note about the backup:
+### Note about the backup:
 - a backup folder named WindowsImageBackup is created on the destination volume when the first backup is created
 - a subfolder under that folder is created with the name of the host machine
 - other folders and backup files are created under this second folder
