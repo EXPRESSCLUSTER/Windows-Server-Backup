@@ -21,8 +21,8 @@
 7. Select the recover type of 'Files and folders'
 8. Drill down in the directory to choose the file or files to recover
 9. Specify recover options:
-   Location = original
-   Overwrite
+   - Location = original
+   - Overwrite
 10. Confirm
 
 Result: Files were restored to state when backup was taken
