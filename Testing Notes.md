@@ -1,6 +1,4 @@
-================================
-==Create a backup to work with==
-================================
+# Create a backup to work with
 Create an immediate backup
 1. Launch Windows Server Backup console
 2. Select 'Local Backup' in the left pane
@@ -13,9 +11,7 @@ Note about the backup:
 - other folders and backup files are created under this second folder
 - I suspect that the file backup may exist in the .vhdx file in one subdirectory
 
-=================
-==Recover files==
-=================
+# Recover files
 1. Edit the two source text files
 2. Launch Windows Server Backup console
 3. Select 'Local Backup' in the left pane
