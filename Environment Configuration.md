@@ -6,6 +6,12 @@ Primary server & Secondary server: Windows Server 2019 Datacenter edition VM
 - Created subfolder called 'backup2' in 'backup' folder and added a text file to that directory
 - Installed the Windows Server Backup feature from 'Add roles and features' in Server Manager
 
+# EXPRESSCLUSTER 4.1 installation and configuration
+1. Install EXPRESSCLUSTER 4.1 on both servers, adding a basic license and mirroring license
+2. Create a cluster between the primary and secondary servers
+3. Create a failover group with a mirror disk, mirroring the 5GB drives on each server (e.g. drive F:)
+4. Test to verify that mirroring is functioning properly
+
 # Windows Server Backup configuration
 1. Launched Windows Server Backup console by running wbadmin.msc
 2. Select 'Local Backup' in the left pane
@@ -19,7 +25,3 @@ Primary server & Secondary server: Windows Server 2019 Datacenter edition VM
 9. Choose the VHDX drive added earlier as the Destination Volume (e.g. drive F:)
 10. Confirm selections
 
-# EXPRESSCLUSTER 4.1 installation and configuration
-1. Install EXPRESSCLUSTER 4.1 on both servers, adding a basic license and mirroring license
-2. Create a cluster between the primary and secondary servers
-3. Create a failover group with a mirror disk, mirroring the 5GB drives on each server (e.g. drive F:)
