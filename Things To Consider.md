@@ -1,4 +1,5 @@
 - I did not test the 'Full server' backup option. 
+- The 'VSS copy backup' option backs up all files and preserves application files, including log files.
 - Windows Server Backup offers three storage destination types: Hard disk dedicated for backups, Volume, and Shared Network Folder.
 The dedicated hard disk type is NOT supported by EXPRESSCLUSTER. Do not use it since a Blue Screen will occur when it is being configured!
 - It is best to plan on only having the latest backup snapshot for this solution when there is a need to restore files.
