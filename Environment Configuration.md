@@ -19,7 +19,7 @@ Primary server & Secondary server: Windows Server 2019 Datacenter edition VM
 4. Click 'Next' to get started
 5. Choose the Custom option for the type of configuration since there is no need to back up the whole server
 6. Locate and select the two text files and the folder to back up
-6a. In Advance Settings, choose VSS full backup (VSS settings). This allows for incremental backups.
+   - In Advance Settings, choose VSS full backup (VSS settings). This allows for incremental backups.
 7. Stay with the default backup schedule of 'Once a day' at 9:00 PM
 8. Choose 'Back up to a volume'
 9. Choose the VHDX drive added earlier as the Destination Volume (e.g. drive F:)
