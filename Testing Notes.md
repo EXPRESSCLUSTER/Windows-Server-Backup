@@ -26,3 +26,5 @@
 10. Confirm
 
 Result: Files were restored to state when backup was taken
+
+# Useful Commands and Cmdlets
