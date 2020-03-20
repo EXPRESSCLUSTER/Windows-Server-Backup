@@ -5,6 +5,10 @@
 3. Choose 'Backup Once...' in the right Actions pane
 4. Complete the process to execute the backup
 
+  Commandline options:
+  - wbadmin start backup
+  - Start-WBBackup \(Powershell\)
+
 ### Note about the backup:
 - a backup folder named WindowsImageBackup is created on the destination volume when the first backup is created
 - a subfolder under that folder is created with the name of the host machine
@@ -43,5 +47,3 @@ Although both commands provide a number of data fields in their output, some of 
 |  | *JobState* | Running | Running | Unknown |
   
 Both commands output a numerical value for the result of the last backup \(*LastBackupResultHR* and *HResult*\). A 0-value indicates success. The Get-WBJob command can also list the output from previous jobs. Syntax is: Get-WBJob -Previous \<number of jobs to retrieve\>
-
-
