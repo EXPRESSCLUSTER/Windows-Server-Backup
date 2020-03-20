@@ -33,5 +33,6 @@ Result: Files were restored to state when backup was taken
 - Commands using [PowerShell](https://docs.microsoft.com/en-us/powershell/module/windowsserverbackup/?view=win10-ps)
   - **Get-WBSummary** - Gets the history of backup operations on the computer.
   - **Get-WBJob** - Gets the current backup operation.
-  | Command | Description |
+| Command | Description |
+| --- | --- |
   
