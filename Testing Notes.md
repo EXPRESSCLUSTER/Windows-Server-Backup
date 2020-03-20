@@ -1,6 +1,6 @@
 # Create a backup to work with
 ## Create an immediate backup
-1. Launch Windows Server Backup console
+1. Launch Windows Server Backup console \(wbadmin.msc\)
 2. Select 'Local Backup' in the left pane
 3. Choose 'Backup Once...' in the right Actions pane
 4. Complete the process to execute the backup
