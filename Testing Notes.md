@@ -33,6 +33,8 @@ Result: Files were restored to state when backup was taken
 - Commands using [PowerShell](https://docs.microsoft.com/en-us/powershell/module/windowsserverbackup/?view=win10-ps)
   - **Get-WBSummary** - Gets the history of backup operations on the computer.
   - **Get-WBJob** - Gets the current backup operation.
+  
+Although both commands provide a number of data fields in their output, some of the more important ones are included in the table below.
 
 | Command | Output Field Name | Backup Job Running | Recovery Job Running | No Job Running |
 | --- | --- | --- | --- | --- |
@@ -40,3 +42,6 @@ Result: Files were restored to state when backup was taken
 | **Get-WBJob** | *JobType* | Backup | FileRecovery | None |
 |  | *JobState* | Running | Running | Unknown |
   
+Both commands output a numerical value for the result of the last backup. A 0-value indicates success. The Get-WBJob command can also list the output from previous jobs. Syntax is: Get-WBJob -Previous \<number to retrieve\>
+
+
