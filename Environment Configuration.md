@@ -10,7 +10,8 @@ Primary server & Secondary server: Windows Server 2019 Datacenter edition VM
 1. Install EXPRESSCLUSTER 4.1 on both servers, adding a basic license and mirroring license
 2. Create a cluster between the primary and secondary servers
 3. Create a failover group with a mirror disk, mirroring the 5GB drives on each server (e.g. drive F:)
-4. Test to verify that mirroring is functioning properly
+4. Set the failover attribute for the group to \"Manual Failover\". This will ensure that the failover group is always running on the Primary server
+5. Test to verify that mirroring is functioning properly
 
 # Windows Server Backup configuration
 1. Launched Windows Server Backup console by running wbadmin.msc
