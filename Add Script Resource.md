@@ -13,7 +13,7 @@ This guide assumes that you have already created a cluster in EXPRESSCLUSTER.
 12.	Click **Browse**, change the file type from ***\*.bat*** to ***All File \(\*.\*\)***, select ***start.ps1***, and click **Open**. Click **Save**. The new file should be in the list.
 13.	Click **Finish**.
 14. Click **Apply the Configuration File**.
-15. Click **OK**. 
+15. Click **OK** to perform the operation. 
 16. Click **OK** to resume the cluster.
 17. Change the mode from **Config** to **Operation** and click the **Status** tab.
 18. Expand the new script name \(*wsb_script*\) and click the triangle button under the primary server to start the resource.
