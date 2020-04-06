@@ -42,8 +42,8 @@ Although both commands provide a number of data fields in their output, some of 
 
 | Command | Output Field Name | | Backup Job Is Running | Recovery Job Is Running | No Job Is Running |
 | --- | --- | --- | --- | --- | --- |
-| **Get-WBSummary** | *CurrentOperationStatus* | | BackupInProgress | RecoveryInProgress | NoOperationInProgress |
-| **Get-WBJob** | *JobType* | | Backup | FileRecovery | None |
-|  | *JobState* | | Running | Running | Unknown |
+| **Get-WBSummary** | *CurrentOperationStatus* |-| BackupInProgress | RecoveryInProgress | NoOperationInProgress |
+| **Get-WBJob** | *JobType* |-| Backup | FileRecovery | None |
+|  | *JobState* |-| Running | Running | Unknown |
   
 Both commands output a numerical value for the result of the last backup \(*LastBackupResultHR* and *HResult*\). A 0-value indicates success. The Get-WBJob command can also list the output from previous jobs. Syntax is: Get-WBJob -Previous \<number of jobs to retrieve\>
