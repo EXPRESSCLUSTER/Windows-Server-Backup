@@ -40,7 +40,7 @@ Result: Files were restored to state when backup was taken
   
 Although both commands provide a number of data fields in their output, some of the more important ones are included in the table below.
 
-| Command | Output Field Name | | Backup Job Running | Recovery Job Running | No Job Running |
+| Command | Output Field Name | | Backup Job Is Running | Recovery Job Is Running | No Job Is Running |
 | --- | --- | --- | --- | --- | --- |
 | **Get-WBSummary** | *CurrentOperationStatus* | | BackupInProgress | RecoveryInProgress | NoOperationInProgress |
 | **Get-WBJob** | *JobType* | | Backup | FileRecovery | None |
