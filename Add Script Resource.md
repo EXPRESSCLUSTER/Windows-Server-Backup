@@ -1,5 +1,5 @@
 This guide assumes that you have already created a cluster in EXPRESSCLUSTER.
-1. Download the Windows Server Backup script files for mounting and dismounting a volume from this site \(***wsbackup_script.zip***\).
+1. Download the Windows Server Backup script files for mounting and dismounting a volume from this site \([***wsbackup_script.zip***](wsbackup_script.zip)\).
 2. Unzip the files into a local folder on the primary server.
 3. Edit the file ***Start.bat*** and change the variable **dataPartitionLetter** to the same drive letter used for the data mirroring disk drive \(Example: *dataPartitionLetter=X*\).
 4. Launch the **EXPRESSCLUSTER WebUI** if it is not running and change the mode from **Operation** mode to **Config** mode.
