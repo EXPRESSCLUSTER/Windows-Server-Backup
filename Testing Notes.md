@@ -43,7 +43,6 @@ Although both commands provide a number of data fields in their output, some of 
 | Command | Output Field Name | | Backup Job Is Running | Recovery Job Is Running | No Job Is Running |
 | --- | --- | --- | --- | --- | --- |
 | **Get-WBSummary** | *CurrentOperationStatus* | | BackupInProgress | RecoveryInProgress | NoOperationInProgress |
-| --- | --- | --- | --- | --- | --- |
 | **Get-WBJob** | *JobType* | | Backup | FileRecovery | None |
 |  | *JobState* | | Running | Running | Unknown |
   
