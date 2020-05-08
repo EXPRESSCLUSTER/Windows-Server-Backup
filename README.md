@@ -3,7 +3,7 @@ This project is an attempt to create an inexpensive backup solution which is eas
 
   ![Configuration](Configuration.png)
   
-  ![Restore](Restore.png)
+  ![Restore](https://github.com/EXPRESSCLUSTER/Windows-Server-Backup/blob/master/Restore.PNG?raw=true)
 
 What value does this solution provide?
 - Basic backup solution
