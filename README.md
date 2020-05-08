@@ -10,14 +10,8 @@ What value does this solution provide?
 - Backup scheduling
 - Inexpensive disks on DR site for data backup
 
-Setup guide
+[Setup guide](https://github.com/EXPRESSCLUSTER/Windows-Server-Backup/blob/master/Environment%20Configuration.md)
 
-https://github.com/EXPRESSCLUSTER/Windows-Server-Backup/blob/master/Environment%20Configuration.md
+[How to create backup and restore data from the backup](https://github.com/EXPRESSCLUSTER/Windows-Server-Backup/blob/master/Testing%20Notes.md)
 
-How to create backup and restore data from the backup
-
-https://github.com/EXPRESSCLUSTER/Windows-Server-Backup/blob/master/Testing%20Notes.md
-
-Notes
-
-https://github.com/EXPRESSCLUSTER/Windows-Server-Backup/blob/master/Things%20To%20Consider.md
+[Notes](https://github.com/EXPRESSCLUSTER/Windows-Server-Backup/blob/master/Things%20To%20Consider.md)
