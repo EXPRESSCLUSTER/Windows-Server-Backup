@@ -16,8 +16,6 @@ Primary server & Secondary server: Windows Server 2019 Datacenter edition VM
 4. Set the failover attribute for the group to "Manual Failover." This ensures that the failover group always runs on the Primary server.
 5. Test to verify that mirroring is functioning properly.
 
-> **Note:** step numbering was corrected here — a step (originally numbered 4) was missing from the source document. If you have the original content for that step, it should be restored above in place of the renumbering.
-
 # Windows Server Backup configuration
 
 1. Launch the Windows Server Backup console by running `wbadmin.msc`.
